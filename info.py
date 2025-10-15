@@ -26,12 +26,12 @@ NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/46443096bc6895c74a716.
 MELCOW_VID = environ.get("MELCOW_VID", "https://telegra.ph/file/85d361ab4cb6511006022.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/14ca5674072491cda2d59.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/0e2bc4c69e7a471e242b8.jpg'))
-CODE = (environ.get('CODE', 'https://t.me/+GK5SsPo9cWVjMzI1'))
+CODE = (environ.get('CODE', 'https://t.me/Movie_house_club'))
 
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'arlinks.in'))
 STREAM_API = (environ.get('STREAM_API', 'c8deaa7cb811330e142c77d4050754c9cda60dfa'))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/+GK5SsPo9cWVjMzI1'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/movies_updet'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1807927334 7436687322').split()]
@@ -65,7 +65,7 @@ MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Your_Movie_Link_8')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+GK5SsPo9cWVjMzI1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/movies_updet')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/how_to_downlod09/7')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : Abhikumar7799')
