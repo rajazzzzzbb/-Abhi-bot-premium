@@ -29,7 +29,7 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/0e2bc4c69e7a
 CODE = (environ.get('CODE', 'https://t.me/movies_updet'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'http://Liteshort.com')
+STREAM_SITE = (environ.get('STREAM_SITE', 'Liteshort.com')
 STREAM_API = (environ.get('STREAM_API', '094cac42e1c39c257f8f1cd79faed60098fc83b2')
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/+GK5SsPo9cWVjMzI1'))
 
@@ -57,7 +57,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'http://Liteshort.com')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Liteshort.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '094cac42e1c39c257f8f1cd79faed60098fc83b2')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
