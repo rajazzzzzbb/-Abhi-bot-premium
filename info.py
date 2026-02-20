@@ -29,8 +29,8 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/0e2bc4c69e7a
 CODE = (environ.get('CODE', 'https://t.me/movies_updet'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'arlinks.in'))
-STREAM_API = (environ.get('STREAM_API', 'c8deaa7cb811330e142c77d4050754c9cda60dfa'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'Liteshort.com'))
+STREAM_API = (environ.get('STREAM_API', '094cac42e1c39c257f8f1cd79faed60098fc83b2)
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/+GK5SsPo9cWVjMzI1'))
 
 # Admins, Channels & Users
@@ -51,14 +51,14 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sumitjk377_db_user:abhi7860@cluster0.gthhfxt.mongodb.net/?appName=Cluster0")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://ckck44484:FsLjWzelbSk9rg17@cluster0.mducxwc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Abhi12")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://sumitjk377_db_user:abhi7860@cluster0.gthhfxt.mongodb.net/?appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "abhi7860)
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'arlinks.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'c8deaa7cb811330e142c77d4050754c9cda60dfa')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Liteshort.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '094cac42e1c39c257f8f1cd79faed60098fc83b2)
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
