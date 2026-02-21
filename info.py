@@ -30,7 +30,7 @@ CODE = (environ.get('CODE', 'https://t.me/movies_updet'))
 
 #stream link shortner
 Stream link shortener config
-STREAM_SITE = os.environ.get('STREAM_SITE', 'http://Liteshort.com')
+STREAM_SITE = (environ.get('STREAM_SITE', 'http://Liteshort.com'))
 STREAM_API = (environ.get('STREAM_API', '094cac42e1c39c257f8f1cd79faed60098fc83b2')
 STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/+GK5SsPo9cWVjMzI1'))
 
