@@ -32,7 +32,7 @@ CODE = (environ.get('CODE', 'https://t.me/movies_updet'))
 #Stream link shortener config
 STREAM_SITE = (environ.get('STREAM_SITE', 'Liteshort.com'))
 STREAM_API = (environ.get('STREAM_API', '094cac42e1c39c257f8f1cd79faed60098fc83b2'))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/+GK5SsPo9cWVjMzI1'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/movies_updet'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1807927334 7436687322').split()]
@@ -40,7 +40,7 @@ CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHAN
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '1807927334').split()]
-auth_channel = environ.get('AUTH_CHANNEL', '-1002346311796')
+auth_channel = environ.get('AUTH_CHANNEL', '-1002520793005)
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
