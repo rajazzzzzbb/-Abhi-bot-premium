@@ -54,7 +54,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sumitjk377_db_user:abhi7860@cluster0.gthhfxt.mongodb.net/?appName=Cluster0")
 DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://sumitjk377_db_user:abhi7860@cluster0.gthhfxt.mongodb.net/?appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "abhi7860")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'abbotz_filez')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
